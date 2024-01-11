@@ -1,10 +1,13 @@
 import React from 'react';
+import HomeBanner from '../Banners/HomeBanner';
+import Kindliftinfobanner from '../Banners/Kindliftinfobanner';
 
 const Home = () => {
     return (
-        <div>
-            this is Home
-        </div>
+        <>
+            <HomeBanner/>
+            <Kindliftinfobanner/>
+        </>
     );
 };
 
